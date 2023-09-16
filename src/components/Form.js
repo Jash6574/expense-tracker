@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from 'react-hook-form';
-
+import List from "./List";
 
 
 function Form() {
@@ -42,6 +42,7 @@ function Form() {
             </div>
           </div>
         </form>
+        <List />
       </div>
     </>
   );
